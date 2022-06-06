@@ -2,6 +2,7 @@ import _ArgumentIcon from './argument.svg';
 import _ChevronDownIcon from './chevron-down.svg';
 import _ChevronLeftIcon from './chevron-left.svg';
 import _ChevronUpIcon from './chevron-up.svg';
+import _CloseIcon from './close.svg';
 import _DeprecatedArgumentIcon from './deprecated-argument.svg';
 import _DeprecatedFieldIcon from './deprecated-field.svg';
 import _DocsIcon from './docs.svg';
@@ -10,6 +11,7 @@ import _HistoryIcon from './history.svg';
 import _KeyboardShortcutIcon from './keyboard-shortcut.svg';
 import _PenIcon from './pen.svg';
 import _PlayIcon from './play.svg';
+import _PlusIcon from './plus.svg';
 import _PrettifyIcon from './prettify.svg';
 import _RootTypeIcon from './root-type.svg';
 import _SettingsIcon from './settings.svg';
@@ -28,6 +30,7 @@ export const ChevronLeftIcon = generateIcon(
   'chevron left icon',
 );
 export const ChevronUpIcon = generateIcon(_ChevronUpIcon, 'chevron up icon');
+export const CloseIcon = generateIcon(_CloseIcon, 'close icon');
 export const DeprecatedArgumentIcon = generateIcon(
   _DeprecatedArgumentIcon,
   'depreaceted argument icon',
@@ -45,6 +48,7 @@ export const KeyboardShortcutIcon = generateIcon(
 );
 export const PenIcon = generateIcon(_PenIcon, 'pen icon');
 export const PlayIcon = generateIcon(_PlayIcon, 'play icon');
+export const PlusIcon = generateIcon(_PlusIcon, 'plus icon');
 export const PrettifyIcon = generateIcon(_PrettifyIcon, 'prettify icon');
 export const RootTypeIcon = generateIcon(_RootTypeIcon, 'root type icon');
 export const SettingsIcon = generateIcon(_SettingsIcon, 'settings icon');
