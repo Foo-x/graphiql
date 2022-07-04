@@ -178,7 +178,7 @@ export function SchemaContextProvider(props: SchemaContextProviderProps) {
             // was set after the introspection request was initialized)
             setSchema(current => (current === undefined ? newSchema : current));
           } catch (error) {
-            setFetchError(formatError(error as Error));
+            setFetchError(formatError(error));
           }
         } else {
           // handle as if it were an error if the fetcher response is not a string or response.data is not present
